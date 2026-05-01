@@ -138,18 +138,7 @@ type User struct {
 - Mensagens amigáveis para erros de negócio (ex: usuário não encontrado)
 - Fechamento adequado de recursos com `defer`
 
----
-
-## 🧪 Melhorias Sugeridas
-
-- [ ] Adicionar validações de e-mail e idade
-- [ ] Implementar busca por ID ou e-mail (além do nome)
-- [ ] Substituir `log.Fatal` por tratamento de erro mais granular
-- [ ] Adicionar testes unitários para `repository` e `services`
-- [ ] Implementar paginação na listagem de usuários
-- [ ] Criar script de migração para versionamento do schema
-
----
+----
 
 ## 🤝 Contribuindo
 
@@ -158,13 +147,6 @@ type User struct {
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
-
----
-
-## 📄 Licença
-
-Este projeto é de caráter educacional e está sob a licença MIT. Sinta-se à vontade para usar, modificar e distribuir.
-
 ---
 
 > 💡 **Nota para Desenvolvedores**: Este projeto segue uma arquitetura simples em camadas, ideal para aprendizado de Go, padrões de repositório e interação com bancos de dados relacionais.
